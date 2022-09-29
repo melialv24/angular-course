@@ -3,7 +3,9 @@
 
 <div class="row">
   <div class="col">
-    <app-personajes></app-personajes>
+    <!--[personajes] hacemos referencia a la variable declarada en personajes que toma el valor de per
+    personajes que está declarada en main-page-->
+    <app-personajes [personajes]="personajes"></app-personajes>
   </div>
   <div class="col">
     <h3>
