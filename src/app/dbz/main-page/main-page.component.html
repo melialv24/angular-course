@@ -5,12 +5,9 @@
   <div class="col">
     <!--[personajes] hacemos referencia a la variable declarada en personajes que toma el valor de per
     personajes que está declarada en main-page-->
-    <app-personajes [personajes]="personajes"></app-personajes>
+    <app-personajes></app-personajes>
   </div>
   <div class="col">
-    <app-agregar
-      (onNuevoPersonaje)="agregarNuevoPersonaje($event)"
-      [nuevo]="nuevo"
-    ></app-agregar>
+    <app-agregar [nuevo]="nuevo"></app-agregar>
   </div>
 </div>
